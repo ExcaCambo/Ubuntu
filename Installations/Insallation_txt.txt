@@ -1,0 +1,42 @@
+NOTE INSTALLLATION
+
+- Install NodeJS :
+	curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+	sudo apt-get install -y nodejs
+	+ Optional: sudo apt-get install -y build-essential
+
+- Install Npm :
+	npm --version
+	sudo apt-get install npm
+
+- Install Git
+	git --version
+	sudo apt-get install git
+
+- Install Cordova:
+	nodejs --version
+	IF NOT FOUND >> sudo apt-get install nodejs
+	sudo npm install -g cordova
+
+- Install Ionic:
+	nodejs --version
+	IF NOT FOUND >> sudo apt-get install nodejs
+	sudo npm install -g ionic
+
+- Install Java:
+	sudo add-apt-repository ppa:webupd8team/java
+	sudo apt update
+	sudo apt install oracle-java8-installer
+
+- Install Andorid SDK:
+	Goto Android developer and download Tool Only for Linux
+	Extract and install by >> ./android
+	Update and install sdk
+
+	Edit file: gedit ~/.bashrc
+	> add to top of paragraph
+	> 	export PATH=${PATH}:~/android-sdk-linux/tools
+    		export PATH=${PATH}:~/android-sdk-linux/platform-tools
+
+	Set up : Android Virtual Device
+	> android avd
