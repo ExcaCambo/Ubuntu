@@ -51,6 +51,22 @@ NOTE INSTALLLATION
 	REMOVE
 	sudo apt-get remove rabbitvcs-cli rabbitvcs-core rabbitvcs-gedit rabbitvcs-nautilus3
 
+- Install Maven:
+	apt-cache search maven
+	sudo apt-get install maven
+	mvn -version
+	ls -ls /usr/share/maven
+	
+- Install Postgres
+	sudo apt-get update
+    	sudo apt-get install postgresql postgresql-contrib
+	sudo -i -u postgres
+	>> You can now access a Postgres prompt immediately by typing:
+	psql
+	OR
+	sudo -u postgres psql
+	CRAETE DATABASE createdb sammy
+
 
 
 
