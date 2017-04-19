@@ -67,10 +67,24 @@ NOTE INSTALLLATION
 	sudo -u postgres psql
 	CRAETE DATABASE createdb sammy
 
-
-
-
-
-
+- Install Mysql
+	sudo apt-get install mysql-server
+	sudo mysql_secure_installation
+	mysql -u root -p
+	
+	RESET PASSWORD
+	sudo service mysql stop
+	sudo dpkg-reconfigure mysql-server-5.5
+	sudo service mysql start
+	
+	TUNER
+	sudo apt-get install mysqltuner
+	mysqltuner
+	
+- Install Mysql Workbench
+	Download from : https://dev.mysql.com/downloads/file/
+	install with Ubuntu Software
+	
+	
 Vaadin Doc 
 -https://demo.vaadin.com/book-examples/book#component.table.basic
