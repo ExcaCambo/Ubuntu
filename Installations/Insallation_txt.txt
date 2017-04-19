@@ -42,7 +42,14 @@ NOTE INSTALLLATION
 	Set up : Android Virtual Device
 	> android avd
 
-
+- Install CVS : (Code management)
+	sudo apt-get install rabbitvcs-cli rabbitvcs-core rabbitvcs-gedit rabbitvcs-nautilus
+	OR 
+	sudo add-apt-repository ppa:rabbitvcs/ppa
+	sudo apt-get update
+	sudo apt-get install rabbitvcs-cli rabbitvcs-core rabbitvcs-gedit rabbitvcs-nautilus3
+	REMOVE
+	sudo apt-get remove rabbitvcs-cli rabbitvcs-core rabbitvcs-gedit rabbitvcs-nautilus3
 
 
 
