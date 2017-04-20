@@ -42,12 +42,14 @@ NOTE INSTALLLATION
 	Set up : Android Virtual Device
 	> android avd
 
-- Install CVS : (Code management)
+- Install CVS : (Code management) Use SVN -Subversion, GIT
 	sudo apt-get install rabbitvcs-cli rabbitvcs-core rabbitvcs-gedit rabbitvcs-nautilus
+	
 	OR 
 	sudo add-apt-repository ppa:rabbitvcs/ppa
 	sudo apt-get update
 	sudo apt-get install rabbitvcs-cli rabbitvcs-core rabbitvcs-gedit rabbitvcs-nautilus3
+	
 	REMOVE
 	sudo apt-get remove rabbitvcs-cli rabbitvcs-core rabbitvcs-gedit rabbitvcs-nautilus3
 
@@ -63,6 +65,7 @@ NOTE INSTALLLATION
 	sudo -i -u postgres
 	>> You can now access a Postgres prompt immediately by typing:
 	psql
+	
 	OR
 	sudo -u postgres psql
 	CRAETE DATABASE createdb sammy
@@ -84,6 +87,23 @@ NOTE INSTALLLATION
 - Install Mysql Workbench
 	Download from : https://dev.mysql.com/downloads/file/
 	install with Ubuntu Software
+	
+	OR
+	sudo apt-get update
+	sudo apt-get install libctemplate0 libzip1 python-pysqlite2 mysql-client python-crypto python-paramiko
+	sudo apt-get install mysql-workbench
+	
+	FIXED Install
+	sudo apt-get -f install 
+	sudo apt-get -f install mysql-workbench
+	
+- Install Glances (System Monitoring)
+	sudo apt-get install python-pip build-essential python-dev lm-sensors
+	sudo pip install psutil logutils bottle batinfo https://bitbucket.org/gleb_zhulik/py3sensors/get/tip.tar.gz zeroconf 	netifaces pymdstat influxdb elasticsearch potsdb statsd pystache docker-py pysnmp pika py-cpuinfo bernhard
+	sudo pip install glances
+	
+	RUN
+	glances
 	
 	
 Vaadin Doc 
