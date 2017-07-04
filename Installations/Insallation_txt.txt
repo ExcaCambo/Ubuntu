@@ -124,3 +124,30 @@ Vaadin Doc
 
 How to create Vaadin Project by Maven
 - http://www.whycouch.com/2012/05/how-to-create-vaadin-project-in-eclipse.html
+
+Java Codeconvention
+- http://www.oracle.com/technetwork/java/codeconventions-150003.pdf
+
+// ---------------- Vaadin in eclipse -------------------//
+O. Start a project by:
+New -> New Maven Project -> (Add Archetype..) -> <Set value>
+
+Archetype Group ID: com.vaadin
+Archetype Artifact ID: vaadin-archetype-clean
+Archetype Version: LATEST
+Leave the Repository URL: field blank, and click OK.  The vaadin-archetype-clean archetype will now be selected in  the New Maven Project: Select an Archetype window.  Click Next.
+
+I. Comfig Tomcat in Eclipse
+- Download plugin: https://sourceforge.net/projects/tomcatplugin/
+- Then exract and copy all file in folder "plugins" into Eclipse plugin example:"//Application/sts-bundle/sts-3.8.3.RELEASE/plugins"
+- Open eclipse: Window -> Preferences-> Tomcat -> Select tomcat home and version _ Apply _ OK
+
+II. Config run project
+- In eclipse : Option "Run as" -> "Run Configuration" -> "Maven Biuld" -> (Add) -> (Choose workspace) then in "Goals" input "clean install" -> Apply - OK
+
+III. Setting server (Tomcat)
+- Create file name in folder: "/apache-tomcat-____*/conf/Catalina/localhost"
+Example: trainning.xml
+Alter "clean install" or in project directory "mvn clean install" we can do this.
+<Context path="/trainning" reloadable="true" docBase="/home/channarith.bong/Tmp/test_free/target/test_free-1.0.0" workDir="/home/channarith.bong/Tmp/test_free/target/test_free-1.0.0" />
+* docBase is find from: "pro_name/target/pro_name-1.0.0"(the same name of war file)
