@@ -113,3 +113,13 @@ NOTE INSTALLLATION
 	
 Vaadin Doc 
 -https://demo.vaadin.com/book-examples/book#component.table.basic
+
+-version 6: https://vaadin.com/book/vaadin6/-/page/preface.html
+
+-version 7: http://demo.vaadin.com/book-examples-vaadin7/book#gettingstarted.firstproject.newproject
+
+-Table : https://vaadin.com/vaadin-documentation-portlet/framework/components/components-table.html
+
+-html : https://vaadin.com/blog/-/blogs/dynamic-html-templates-with-freemarker-and-vaadin
+
+
