@@ -122,4 +122,5 @@ Vaadin Doc
 
 -html : https://vaadin.com/blog/-/blogs/dynamic-html-templates-with-freemarker-and-vaadin
 
-
+How to create Vaadin Project by Maven
+- http://www.whycouch.com/2012/05/how-to-create-vaadin-project-in-eclipse.html
