@@ -137,6 +137,8 @@ Archetype Artifact ID: vaadin-archetype-clean
 Archetype Version: LATEST
 Leave the Repository URL: field blank, and click OK.  The vaadin-archetype-clean archetype will now be selected in  the New Maven Project: Select an Archetype window.  Click Next.
 
+* For more : http://www.yourfriendsdatadiary.info/vaadin-maven-tomcat-project-in-eclipse/
+
 I. Comfig Tomcat in Eclipse
 - Download plugin: https://sourceforge.net/projects/tomcatplugin/
 - Then exract and copy all file in folder "plugins" into Eclipse plugin example:"//Application/sts-bundle/sts-3.8.3.RELEASE/plugins"
