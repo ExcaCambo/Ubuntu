@@ -128,6 +128,12 @@ How to create Vaadin Project by Maven
 Java Codeconvention
 - http://www.oracle.com/technetwork/java/codeconventions-150003.pdf
 
+// ---------------- Spring in eclipse -------------------//
+- Start up: https://www.mkyong.com/maven/how-to-create-a-web-application-project-with-maven/
+
+// -------------- Spring Hybenate by Maven -------------//
+- Configure : https://www.mkyong.com/spring/maven-spring-hibernate-mysql-example/
+
 // ---------------- Vaadin in eclipse -------------------//
 O. Start a project by:
 New -> New Maven Project -> (Add Archetype..) -> <Set value>
