@@ -1,0 +1,4 @@
+-========================== Import Maven project from SVN ==============================-
+- check out form SVN
+- goto folder your new checkouted porject and delete all file name ".classpath, .settings, .project"
+- in eclipse: file-> import -> maven project -> existing maven project -> OK.
