@@ -1,0 +1,4 @@
+-=============== Reset eclipse to defual layout and somes setting ==================-
+<in linux>
+Goto your workspace folder ad find file ".RemoteSystemsTempFiles, .metadata, .recommenders" 
+and then restart your IDE eclipse.
