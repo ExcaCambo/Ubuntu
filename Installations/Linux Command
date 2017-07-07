@@ -1,0 +1,384 @@
+-========== Command in Linux ============-
+Commond use:
+- Extract file : tar -xvzf community_images.tar.gz
+
+List:
+A
+
+alias
+A way to run a command or a series of Unix commands using a shorter name than those that are usually associated with such commands.
+How to use the alias command in Linux.
+
+apt-get
+Apt-get is a tool to automatically update a Debian machine and to get and install Debian packages/programs.
+Hot to manage software on an Ubuntu Server with "aptitude" and "apt-get."
+Understanding the Debian archives and apt-get.
+Inside the Red Hat and Debian package management differences.
+
+Aspell
+GNU Aspell is a free and open source spell checker designed to replace Ispell. It can either be used as a library or as an independent spell checker.
+How to use Aspell to check spelling.
+
+AWK, Gawk
+A programming language tool used to manipulate text. The language of the AWK utility resembles the shell programming language in many areas, although AWK's syntax is very much its own.
+Learn how to use the AWK utility.
+
+Gawk is the GNU Project's version of the AWK programming language.
+
+B 
+
+bzip2
+A portable, fast, open source program used to compress and decompress files at a high rate.
+How to use bzip2 in Linux.
+More on how to use the bzip2 compression program.
+
+PRO+
+Content
+Find more PRO+ content and other member only offers, here.
+ehandbook_cover
+Ensure a load-balancer failover in a virtualized environment
+E-Handbook
+A converged infrastructure strategy requires a when as well as a why
+E-Handbook
+Ask the right questions before committing to a colocation SLA policy
+C 
+
+cat
+A Unix/Linux command that can read, modify or concatenate text files. Cat commands are most commonly used for displaying the contents of a file.
+See how to use cat to display the contents of a file in Linux.
+An article on what you can do with the cat command.
+
+cd
+The cd command changes the current directory in Linux and can toggle between directories conveniently. Cd is similar to the CD and CHDIR commands in MS-DOS.
+See more on how to use the cd command to change directories.
+
+chmod
+Chmod changes the access mode (permissions) of one or more files. Only the owner of a file or a privileged user may change the access mode.
+See examples of changing the permissions of files using chmod.
+
+chown
+Chown changes file or group ownership and has the option to change ownership of all objects within a directory tree, as well as having the ability to view information on objects processed.
+Learn how to change file ownership with chown.
+
+cmp
+The cmp utility compares two files of any type and writes the results to the standard output. By default, cmp is silent if the files are the same; if they differ, the byte and line number at which the first difference occurred is reported.
+See examples of using cmp.
+
+comm
+Comm compares lines common to file1 and file2.The output is in three columns; from left to right: lines unique to file1, lines unique to file2 and lines common to both files.
+More on comparing lines with comm.
+Read a brief tutorial on using comm.
+
+cp
+The cp command copies files and directories; copies can be made simultaneous to another directory if the copy is under a different name.
+Find out how to copy Linux files and directories with the cp command.
+
+cpio
+Cpio copies files into or out of a cpio or tar archive. A tar archive is a file that contains other files, plus information about them, such as their file name, owner, timestamps and access permissions. The archive can be another file on the disk, a magnetic tape or a pipe. Cpio has three operating modes and is a more efficient alternative to tar.
+Learn how to use cpio when moving files in a Unix-to-Linux port.
+See how to back up files with cpio.
+
+CRON
+CRON is a Linux system process that will execute a program at a preset time. To use CRON, a user must prepare a text file that describes the program to be executed and the times at which CRON should execute them. Then the crontab program can be used to load the text file that describes the CRON jobs into CRON.
+Using CRON to execute programs at specific times.
+
+D
+
+date
+Date sets a system's date and time. This is also a useful way to output/print current information when working in a script file.
+A few more examples of setting date and time with date.
+
+declare
+Declare declares variables, gives them attributes or modifies properties of variables.
+Examples of declaring variables with declare.
+
+df
+Df displays the amount of disk space available on the file system containing each file name argument. With no file name, available space on all currently mounted file systems is shown.
+More on using df to display the amount of disk space available.
+
+E
+
+echo
+Echo allows a user to repeat, or "echo," a string variable to standard output.
+More on using the echo command with shell scripts.
+
+enable
+Enable will stop or start printers or classes.
+Examples of how to enable LP printers.
+
+env
+Env runs a program in a modified environment or displays the current environment and its variables.
+Examples of changing the environment variables using env.
+
+eval
+Eval evaluates several arguments, concatenates them into a single command and then reports on that argument's status.
+More on concatenating arguments with eval.
+
+exec
+Exec replaces the parent process with whatever command is typed. This command treats its arguments as the specification of one or more subprocesses to execute.
+More examples of replacing parent processes with exec.
+
+exit
+The exit command terminates a script and can return a value to the parent script.
+More on terminating scripts with exit.
+
+expect
+Expect talks to other interactive programs according to a script and waits for a response, often from any string that matches a given pattern.
+Using expect for responses.
+
+export
+Export converts a file into a different format than the one in which it is currently. Once a file is exported, it can be accessed by any application that uses its format.
+Examples of exporting data from a database with export.
+
+F
+
+find
+Find searches the directory tree to find particular groups of files that meet specified conditions, including --name and --type, -exec and --size and --mtime and --user.
+Efficiently locate files with find.
+
+for, while
+For and while are used to execute or loop items repeatedly as long as certain conditions are met.
+More on looping items with the for command.
+More on looping items with the while command.
+
+free
+Free displays the total amount of free and used physical memory and swap space in the system, as well as the buffers and cache used by the kernel.
+Learn how to use the free command to optimize a computer's memory.
+
+G
+
+gawk
+See "AWK."
+
+grep
+Grep searches files for a given character string or pattern and can replace the string with another. This is one method of searching for files within Linux.
+Examples of searching with grep.
+
+gzip
+Gzip is the GNU project's open source program used for file compression, compressing web pages on the server end for decompression in the browser. This is popular for streaming media compression and can concatenate and compress several streams simultaneously.
+Examples of using gzip for compressing files.
+
+I
+
+ifconfig
+Ifconfig is used to configure the kernel-resident network interfaces. It is used at boot time to set up interfaces. After that, it is usually only needed when debugging or when system tuning is needed.
+Examples of using ifconfig to configure a network.
+Using ifconfig to detect Linux network configuration problems.
+
+ifup
+Ifup configures a network interface/enables a network connection.
+More on the ifup command in configuring network interfaces.
+
+ifdown
+Ifdown shuts down a network interface/disables a network connection.
+More on shutting down networks with ifdown.
+
+L
+
+less, more
+The less command lets an admin scroll through configuration and error log files, displaying text files one screen at a time, with backward or forward moving available in files. There is more mobility within files.
+View several different file types with less.
+
+Similar to less, more pages through text one screen at a time, but is more limited in moving in files.
+See a few examples of displaying files with more.
+
+locate, slocate
+Locate reads one or more databases and writes file names matching certain patterns to output.
+Finding files/directories efficiently with locate.
+
+Like locate, slocate, or secure locate, provides a way to index and quickly search for files, but also securely stores file permissions and ownership so unauthorized users will be unable to view such information.
+See an example of using slocate as a quick, secure way to index files.
+
+lft
+Lft is similar to traceroute in determining connection routes, but provides a lot more information for debugging connections or finding where a box/system is. Lft also displays route packets and file types.
+More on displaying route packets with lft.
+
+ln
+The ln command creates a new name for a file through hard linking, allowing multiple users to share one file.
+Examples of hard linking files with ln.
+A few more examples of using ln.
+
+ls
+The ls command lists files and directories within the current working directory, allowing admins to see when configuration files were last edited.
+The ls command is discussed in this tip.
+Examples of listing files and directories with ls.
+
+M 
+
+man
+Short for "manual," man allows a user to format and display the user manual built into Linux distributions which documents commands and other aspects of the system.
+The man command is discussed in this tip.
+See how to use the man command.
+See examples of formatting man pages.
+
+mc
+A visual shell, text-based file manager for Unix systems.
+An extensive guide to managing files with mc.
+
+more
+See "less."
+
+N
+
+neat
+Neat is a GNOME GUI admin tool which allows admins to specify the information needed to set up a network card, among other features.
+Setting up an NTL Cable Modem using neat.
+Where neat falls when building a network between Unix and Linux systems.
+
+netconfig/netcfg
+Netconfig configures a network, enables network products and displays a series of screens that ask for configuration information.
+Configuring networks using netcfg.
+
+netstat
+Netstat provides information and statistics about protocols in use and current TCP/IP network connections. It is a helpful forensic tool in figuring out which processes and programs are active on a computer and are involved in network communications.
+More on checking network statuses with the netstat command.
+
+nslookup
+Nslookup allows a user to enter a host name and find the corresponding IP address. A reverse of that process to find the host name is also possible.
+More from Microsoft on how to find IP addresses with nslookup.
+
+O 
+
+od
+Od is used to dump binary files in octal (or hex/binary) format to standard output.
+Examples of dumping files with od.
+See examples of od.
+
+P 
+
+passwd
+Passwd updates a user's authentication tokens (changes their current password).
+Some examples of changing passwords with passwd.
+
+ping
+Ping allows a user to verify that a particular IP address exists and can accept requests. Ping can be used to test connectivity and determine response time, as well as to ensure that a host computer the user is trying to reach is actually operating.
+Examples of using ping to verify IP addresses.
+
+ps
+Ps reports the statuses of current processes in a system.
+Some examples of using the ps command.
+
+pwd
+The pwd (print working directory) command displays the name of the current working directory. This is a basic Linux command.
+Learn the difference between $ PATH and pwd. 
+Using pwd to print the current working directory. 
+
+R 
+
+read
+Read is used to read lines of text from standard input and to assign values of each field in the input line to shell variables for further processing.
+Examples of using read.
+
+RPM
+Red Hat Package Manager (RPM) is a command-line-driven program capable of installing, uninstalling and managing software packages in Linux.
+Managing packages with RPM.
+The differences between yum and RPM.
+Examples of installing packages with RPM.
+
+rsync
+Rsync syncs data from one disk or file to another across a network connection. Rsync is similar to rcp, but has more options.
+A tip on backing up data with rsync.
+How to use rsync to back up a directory in Linux.
+
+S 
+
+screen
+The GNU screen utility is a terminal multiplexor in which a user can use a single terminal window to run multiple terminal applications or windows.
+A tutorial on running multiple windows and other uses of screen.
+A tip on the uses of screen.
+
+sdiff
+Sdiff finds differences between two files by producing a side-by-side listing indicating lines that are dissimilar. Sdiff then merges the files and outputs results to the outfile.
+An example of contrasting files with sdiff.
+
+sed
+Sed is a stream editor that is used to filter text in a pipeline, distinguishing it from other editors. Sed takes text input, performs operations on it and outputs the modified text. Sed is typically used to extract part of a file using pattern matching or to substitute multiple occurrences of a string within a file.
+More on extracting and replacing parts of a file with sed.
+Several more examples of using sed for filtering.
+
+shutdown
+Shutdown is a command that turns off the computer and that can be combined with variables such as -h, for halt after shutdown, or -r, for reboot after shutdown.
+Shut down or halt a computer with shutdown.
+
+slocate
+See "locate."
+
+Snort
+Snort is an open source network intrusion detection system and packet sniffer that monitors network traffic, looking at each packet to detect dangerous payloads or suspicious anomalies. Snort is based on libpcap.
+Stopping hackers with Snort.
+More on using Snort.
+
+sort
+Used to sort lines of text alphabetically or numerically according to fields; multiple sort keys can also be used.
+Examples of sorting through lines of text with the sort command.
+
+sudo
+Sudo allows a system admin to give certain users the ability to run some (or all) commands at the root level and logs all commands and arguments.
+A tutorial on giving permissions to users with the sudo command.
+
+SSH
+SSH is a command interface used for securely gaining access to a remote computer and is used by network admins to control servers remotely.
+A comprehensive tutorial on secure access to remote computers with SSH.
+
+T 
+
+tar
+The tar program provides the ability to create archives from a number of specified files or to extract files from such an archive.
+Examples of creating archives with tar.
+
+TOP
+TOP is a set of protocols for networks that performs distributed information processing in offices and displays the tasks on the system that take up the most memory. TOP can sort tasks by CPU usage, memory usage and runtime.
+Monitoring system processes with TOP.
+
+tr
+Tr is used to translate or delete characters from a text stream. Tr writes to standard output, but does not accept file names as arguments -- it only accepts inputs from standard input.
+Examples of translating characters with tr.
+
+traceroute
+Traceroute determines and records a route through the internet between two computers and is useful for troubleshooting network/router issues. If the domain does not work or is not available, an IP can be tracerouted.
+A tutorial on using traceroute to determine network issues.
+
+U 
+
+uname
+Uname displays the name of the current operating system and can print information about the system.
+Examples of viewing information on the current operating system with uname.
+
+uniq
+Uniq compares adjacent lines in a file and removes/reports any duplicate lines. 
+Removing duplicate lines with the uniq command.
+A tip on removing redundant lines with uniq.
+
+V 
+
+vi
+Vi is a text editor that allows a user to control the system by solely using the keyboard instead of a combination of mouse selections and keystrokes.
+An entire guide to using vi to easily control a system with the keyboard.
+
+vmstat
+Vmstat is used to get a snapshot of everything in a system and to report information on such items as processes, memory, paging and CPU activity. This is a good method for admins to use to determine where issues/slowdown in a system may be occurring.
+How to keep an eye on Linux performance with vmstat and other commands.
+Examples of viewing system memory usage with vmstat.
+
+W 
+
+wc
+Wc counts the number of words, lines and characters in text files and produces a count for multiple files if several files are selected.
+More examples of displaying word counts with wc.
+
+wget
+Wget is a network utility that retrieves files from the web that support http, https and ftp protocols. Wget works non-interactively in the background while a user is logged off. This can create local versions of remote websites, re-creating directories of original sites.
+Examples of creating mirror images of sites with wget.
+
+while
+See "for."
+
+whoami
+Whoami prints or writes the user/login name associated with the current user ID to the standard output.
+Examples of determining which login name is used with whoami.
+
+X 
+
+xargs
+Xargs reads, builds and executes arguments from standard input; blank lines in the input are ignored.
+Examples of running commands from input with xargs.
