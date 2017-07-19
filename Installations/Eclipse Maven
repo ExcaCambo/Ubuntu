@@ -1,0 +1,7 @@
+
+Standard eclipse goals
+
+    eclipse:configure-workspace is used to add the classpath variable M2_REPO to Eclipse which points to your local repository and optional to configure other workspace features.
+    eclipse:eclipse generates the Eclipse configuration files.
+    eclipse:resolve-workspace-dependencies is used to download all missing M2_REPO classpath variable elements for all projects in a workspace. Used if the Eclipse project configuration files are committed to version control and other users need to resolve new artifacts after an update.
+    eclipse:clean is used to delete the files used by the Eclipse IDE.
