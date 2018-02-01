@@ -4,6 +4,19 @@ NOTE INSTALLLATION
 	curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
 	sudo apt-get install -y nodejs
 	+ Optional: sudo apt-get install -y build-essential
+	
+- Upadate NodeJS
+	Linux/Mac:
+
+	The module n makes version-management easy:
+	sudo npm install n -g
+	sudo n 0.12.2
+
+	For the latest stable version:
+	sudo n stable
+
+	For the latest version:
+	sudo n latest
 
 - Install Npm :
 	npm --version
