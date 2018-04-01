@@ -1,0 +1,30 @@
+0. Update respository
+	- sudo rm -rf /var/lib/apt/lists/*
+	- sudo apt clean
+	- sudo apt update
+
+1. Install PHP
+	- sudo add-apt-repository ppa:ondrej/php
+	- sudo apt-get install php7.0
+	- sudo apt-get install php7.0-{bcmath,bz2,intl,gd,mbstring,mcrypt,mysql,zip,curl,soap,dev} && sudo apt-get install libapache2-mod-php7.0
+	- apt-cache search php7.0- // Check
+
+2. Install CURL (Ubuntu 16.04 32bit)
+	- sudo apt-get install libcurl3-gnutls=7.47.0-1ubuntu2
+	- sudo apt-get update && sudo apt-get install curl
+
+3. Install composer
+	- sudo apt install composer
+	- cd ~
+	- curl -sS https://getcomposer.org/installer -o composer-setup.php
+	- composer install
+
+4. Magento setup
+	- Enable developer mode .htaccess
+		SetEnv MAGE_MODE developer
+	- php bin/magento index:reindex
+	- php bin/magento setup:upgrade
+	- php bin/magento cache:clean
+	- sudo chmod 777 -R .
+	
+	As!23456
