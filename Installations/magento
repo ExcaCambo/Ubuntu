@@ -27,4 +27,4 @@
 	- php bin/magento cache:clean
 	- sudo chmod 777 -R .
 	
-	As!23456
+	*****
