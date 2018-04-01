@@ -1,0 +1,35 @@
+0. Prepare file:
+	- copy source site into root_document ex 'work/www/moodle.com'
+	- assing permission : sudo chmod 777 -R .
+
+1. Configure virtual host:
+	- add site name and site path into moodle.edu.conf file
+	- enable site : sudo a2ensite moodle.edu.conf
+	- relaod apache : sudo service apache2 restart
+	- register hosting: sudo gedit /etc/hosts 
+		** 127.0.0.1 moodle.edu
+
+2. Create database
+	- cmd : mysql -u root -p 
+		password: ******
+	- mysql> create database moodle_v1;
+	- mysql> \q
+
+3. Configure startup site:
+	- open firefox: moodle.edu
+	- fill database information: 
+		** host : localhost
+		   user : root
+		   pwds : ****
+		
+	- fill website information.
+	- admin information
+		** password: ****
+		   email   : school@moodle.com
+	- add site name 
+
+4. Add theme pluge-in (klass)
+	- download from : http://www.lmsace.com/product/klass-stylish-flexible-free-moodle-theme/#modal
+	- as admin goto 'plug-in' -> install plugin -> browse to klass.version.zip -> install -> upgrade
+	- as admin goto 'apearance' -> theme -> thene selector -> change -> (klass) -> use theme
+ 
