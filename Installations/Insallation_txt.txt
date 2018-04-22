@@ -138,7 +138,20 @@ NOTE INSTALLLATION
 		Categories=Development;IDE;
 		Name[en]=Eclipse
 
+- Install Ex.rar (unrar)
+	+ You need to enable multiverse repositories to install rar. There's also a separate package called unrar
+		To enable multiverse, run
 
+		sudo software-properties-gtk
+
+		there you'll need to make sure it is selected.
+
+	+ Then run
+		sudo apt-get update
+		sudo apt-get install rar
+
+
+------------------------------------- Vaadin ------------------------------------
 Copy into : /home/channarith.bong/.local/share/applications
 
 Vaadin Doc 
