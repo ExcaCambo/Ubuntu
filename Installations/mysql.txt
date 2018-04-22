@@ -1,3 +1,8 @@
++ Clone database:
+mysqldump --opt -c -e -Q --databases --user=root --password='*****' database > work/backup_$(date +'%Y%m%d_%H%M')_before_delivery_server.sql 
+
+
+
 You can check my.ini file to see where the data folder is located.
 
 Usually there is a folder {mysqlDirectory}/data
