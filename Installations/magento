@@ -1,5 +1,5 @@
-0. Update respository (Please skip)
-	- sudo rm -rf /var/lib/apt/lists/* 
+0. Update respository 
+	- sudo rm -rf /var/lib/apt/lists/* (Please skip)
 	- sudo apt clean
 	- sudo apt update
 
@@ -21,7 +21,7 @@
 
 4. Magento setup
 	- Enable developer mode .htaccess
-		SetEnv MAGE_MODE developer
+		SetEnv MAGE_MODE developer (Can skip)
 	- php bin/magento index:reindex
 	- php bin/magento setup:upgrade
 	- php bin/magento cache:clean
