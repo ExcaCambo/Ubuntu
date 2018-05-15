@@ -1,5 +1,5 @@
-0. Update respository
-	- sudo rm -rf /var/lib/apt/lists/*
+0. Update respository (Please skip)
+	- sudo rm -rf /var/lib/apt/lists/* 
 	- sudo apt clean
 	- sudo apt update
 
