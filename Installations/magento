@@ -28,3 +28,7 @@
 	- sudo chmod 777 -R .
 	
 	*****
+	
+5. Enable writeable mode
+	- a2enmod rewrite
+	- sudo service apache2 restart
