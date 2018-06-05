@@ -2,7 +2,7 @@
 	- copy site folder in to root_document directory ex 'work/www/'
 	- assign permission to directory : sudo chmod 777 -R .
 
-1. Edit file for register new site
+1.1 Edit file for register new site (no SSL)
 	- sudo cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/ecommerse.com.conf
 	- Content : 
 	<VirtualHost *:80>
@@ -26,6 +26,35 @@
 	- Enable site: sudo a2ensite ecommerse.com.conf
 
 	- Restart apache 2 : sudo service apache2 restart
+
+1.2 Virtual Host with SSL
+
+	<VirtualHost *:445>
+		ServerName ecommerse.com
+		ServerAlias www.ecommerse.com
+		ServerAdmin webmaster@localhost
+		DocumentRoot /home/chanrith/Works/WebApplications/ECommerse/www
+
+		SSLEngine on
+		SSLCertificateFile /etc/apache2/ssl/apache.crt
+		SSLCertificateKeyFile /etc/apache2/ssl/apache.key
+
+		<FilesMatch "\.(cgi|shtml|phtml|php)$">
+			SSLOptions +StdEnvVars
+		</FilesMatch>
+
+		<Directory "/home/chanrith/Works/WebApplications/ECommerse/www">
+			SSLOptions +StdEnvVars
+			Options Indexes FollowSymLinks
+			AllowOverride All
+			Allow from all
+			Require all granted
+		</Directory>
+
+		ErrorLog ${APACHE_LOG_DIR}/ersys-shopping-test-tmp-static-error.log
+		CustomLog ${APACHE_LOG_DIR}/ersys-shopping-test-tmp-static-access.log combined
+
+	</VirtualHost> 
 
 2. Register host
 	- sudo edit /etc/hosts
